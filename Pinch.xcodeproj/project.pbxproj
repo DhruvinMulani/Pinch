@@ -13,6 +13,8 @@
 		BCA91EF02B7ADC9500EE69E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA91EEF2B7ADC9500EE69E1 /* Preview Assets.xcassets */; };
 		BCA91EFC2B7BEFC400EE69E1 /* infoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA91EFB2B7BEFC400EE69E1 /* infoPanelView.swift */; };
 		BCA91EFE2B827F6300EE69E1 /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA91EFD2B827F6300EE69E1 /* ControlImageView.swift */; };
+		BCA91F002B83C7BB00EE69E1 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA91EFF2B83C7BB00EE69E1 /* PageModel.swift */; };
+		BCA91F022B83C82700EE69E1 /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA91F012B83C82700EE69E1 /* PageData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		BCA91EEF2B7ADC9500EE69E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BCA91EFB2B7BEFC400EE69E1 /* infoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoPanelView.swift; sourceTree = "<group>"; };
 		BCA91EFD2B827F6300EE69E1 /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
+		BCA91EFF2B83C7BB00EE69E1 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		BCA91F012B83C82700EE69E1 /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		BCA91EF92B7ADEC400EE69E1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BCA91EFF2B83C7BB00EE69E1 /* PageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -101,6 +106,7 @@
 		BCA91EFA2B7ADECC00EE69E1 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				BCA91F012B83C82700EE69E1 /* PageData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -176,8 +182,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCA91EEB2B7ADC9400EE69E1 /* ContentView.swift in Sources */,
+				BCA91F002B83C7BB00EE69E1 /* PageModel.swift in Sources */,
 				BCA91EFE2B827F6300EE69E1 /* ControlImageView.swift in Sources */,
 				BCA91EFC2B7BEFC400EE69E1 /* infoPanelView.swift in Sources */,
+				BCA91F022B83C82700EE69E1 /* PageData.swift in Sources */,
 				BCA91EE92B7ADC9400EE69E1 /* PinchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
